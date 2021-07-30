@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sum Of Two Numbers</title>
+</head>
+<body onload="formload();">
+    <div id="result"></div>
+
+    <script>
+        function formload(){
+        var br = document.createElement("br");
+        var form = document.createElement('form');
+        form.method = "GET";
+
+        var Num1 = document.createElement('input');
+        Num1.setAttribute("type", "number");
+        Num1.setAttribute("id", "a");
+        Num1.setAttribute("placeholder", "Write First Number");
+
+        var Num2 = document.createElement('input');
+        Num2.setAttribute("type", "number");
+        Num2.setAttribute("id", "b");
+        Num2.setAttribute("placeholder", "Write Second Number");
+
+        var s = document.createElement('input');
+        s.setAttribute("type", "button");
+        s.setAttribute("value", "sum");
+        s.setAttribute("onclick", "calcsum();");
+
+        form.appendChild(Num1);
+        form.appendChild(br.cloneNode());
+        form.appendChild(Num2);
+        form.appendChild(br.cloneNode());
+        form.appendChild(s);
+
+        document.body.appendChild(form);
+        }
+
+        function calcsum(){
+            var a = document.getElementById("a").value;
+            var b = document.getElementById("b").value;
+            var c = (+a + +b);
+            document.getElementById("result").innerHTML = c;
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Using NodeJS</title>
+</head>
+<body>
+    <% if(typeof errorarray != 'undefined') { %>
+        <% errorarray.forEach(function(error) { %>
+            <div>
+                <%= error.msg %>
+              </div>
+        <% }) %>
+    <% } %>
+
+    <form action="/register" method="POST">
+        Name: <input type="text" name="Name" id="name" placeholder="Enter Your Name"><br><br>
+        Contact Number: <input type="text" name="Mobile" id="number" placeholder="Enter Your Phone Number" maxlength="10"><br><br>
+        Email: <input type="text" name="email" id="email" placeholder="Enter Your Email"><br><br>
+        Date Of Birth: <input type="date" name="dob" id="dob" placeholder="Date Of Birth"><br><br>
+        Password: <input type="password" name="password" id="password" placeholder="Enter Your Password"><br><br>
+        Confirm Password: <input type="password" name="confirmpass" id="confirmpass" placeholder="Confirm Your Password"><br><br>
+        Address: <textarea name="Address" id="address" cols="30" rows="5"></textarea><br><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

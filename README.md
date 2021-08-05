@@ -1,5 +1,12 @@
 # Tasks
 
+04-08-2021
+Take some student information from user
+-id
+-name
+-marks
+After taking 1st student’s data, ask the user if you want to continue entering the data or quit and then after display all student’s information.
+
 03-08-2021
 
 In that form add one field i.e. file type and upload that selected file on client machine

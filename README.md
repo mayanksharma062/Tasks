@@ -1,4 +1,6 @@
 # Tasks
+05-08-2021
+Try last task using terminal to take multiple inputs and display the same
 
 04-08-2021
 Take some student information from user

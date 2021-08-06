@@ -14,11 +14,11 @@ class data{
         this.Name = n;
         this.Marks = m;
     }
-    show(){
-        console.log(`Id is ${this.id}`);
-        console.log(`Name is ${this.Name}`);
-        console.log(`Marks is ${this.Marks}`);  
-    }
+//     show(){
+//         console.log(`Id is ${this.id}`);
+//         console.log(`Name is ${this.Name}`);
+//         console.log(`Marks is ${this.Marks}`);  
+//     }
 };
 var i = [];
 var recursiveFunc = function(){

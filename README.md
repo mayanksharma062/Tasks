@@ -1,4 +1,7 @@
 # Tasks
+16-08-2021
+Store Entered form data into any of the database using node and ts
+
 09-08-2021 
 Create one form including following fields No. of information to be entered : textbox Id : auto increment Name : textbox Email : email type Mobile : number
 

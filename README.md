@@ -1,4 +1,11 @@
 # Tasks
+
+25-08-2021
+Check whether one should use one state or multiple states to take form values Take three text boxes i.e. for name, number and email on click of submit display data immediate after submit but while entering another data no duplicates should be allowed in any of the field
+
+24-08-2021
+ Form done using react by Components like intro,Hobby,Qualification
+
 20-08-2021
 ask Read and refer Event handling and state in React Create stepwise application like in Step 1 : Ask for personal information after pressing next from step 1, move to step 2 and onwards Step 2: Ask for hobbies Step 3: Ask for qualification
 And after taking all info . Display the same

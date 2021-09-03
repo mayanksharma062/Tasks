@@ -1,8 +1,13 @@
 # Tasks
+02-09-2021
+Practicals: hooks with react router with all four hooks
+Fetch data from an api
+
 01-09-2021
 Introduction to Redux
 createAction
 dispatch
+
 
 25-08-2021
 Check whether one should use one state or multiple states to take form values Take three text boxes i.e. for name, number and email on click of submit display data immediate after submit but while entering another data no duplicates should be allowed in any of the field

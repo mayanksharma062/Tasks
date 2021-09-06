@@ -1,4 +1,8 @@
 # Tasks
+
+03-09-2021
+Perform practical on createslice and configurestore
+
 02-09-2021
 Practicals: hooks with react router with all four hooks
 Fetch data from an api
